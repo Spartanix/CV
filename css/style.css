@@ -84,10 +84,6 @@ main {
 
 /* Slider */
 
-#carouselExampleIndicators {
-  height: 500px;
-}
-
-.carousel-indicators {
-  height: 500px;
+#carouselCentral {
+  padding: 0% 20% 0% 20%;
 }
