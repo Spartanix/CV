@@ -1,0 +1,120 @@
+
+/* Nav Bar */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Header */ 
+
+header {
+  width: 100%;
+  height: max-content;
+}
+
+h4 {
+  font-size: small;
+  color: gray;
+}
+
+/* NavBar */
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav-links, h2 {
+  flex: 1;
+  color: #333;
+}
+.nav-links li {
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+
+.navbar-brand:hover {
+  font-style: italic;
+  transform: translateX(5px);
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  font-style: italic;
+  transform: translateX(5px);
+  font-weight: bold;
+}
+
+/* Main */
+
+main {
+    padding-top: 2%;
+    height: 100%;
+    width: 100%; 
+}
+
+.metier {
+  font-size: smaller;
+  color: gray;
+}
+
+.intro {
+    font-weight: bold;
+    margin-bottom: 3%;
+    height: auto;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.intro .metier {
+    font-size: smaller;
+    color: gray;
+}
+
+/* Carousel */
+
+h3 {
+  text-decoration: underline;
+}
+
+#carouselCentral {
+  height: max-content;
+}
+
+.carousel-indicators {
+  margin-bottom: 0.25%;
+}
+
+.carousel-control-prev {
+  width: 5%;
+}
+
+.carousel-control-prev-icon {
+  background-color: #34BDFF;
+}
+
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-next-icon {
+  background-color: #34BDFF;
+}
+.carousel-inner {
+  padding: 5% 10% 3% 10%;
+}
+
+.about-me {
+  text-align: justify;
+}
