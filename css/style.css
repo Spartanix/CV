@@ -67,7 +67,7 @@ main {
 
 .intro {
     font-weight: bold;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     height: auto;
     text-align: center;
 }
@@ -82,7 +82,7 @@ main {
     color: gray;
 }
 
-/* Slider */
+/* Carousel */
 
 h3 {
   text-decoration: underline;
@@ -90,6 +90,10 @@ h3 {
 
 #carouselCentral {
   height: max-content;
+}
+
+.carousel-indicators {
+  margin-bottom: 0.25%;
 }
 
 .carousel-control-prev {
@@ -108,5 +112,9 @@ h3 {
   background-color: #34BDFF;
 }
 .carousel-inner {
-  padding: 5% 10% 10% 10%;
+  padding: 5% 10% 3% 10%;
+}
+
+.about-me {
+  text-align: justify;
 }
