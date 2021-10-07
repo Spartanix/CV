@@ -1,2 +1,2 @@
 # CV
- Création de mon CV en site internet
+ Création de mon site CV afin de montrer mes compétences.
